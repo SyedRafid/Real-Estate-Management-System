@@ -86,3 +86,25 @@ Built using HTML, CSS, bootstrap, JavaScript, PHP, and phpMyAdmin with the SB Ad
 ```bash
 git clone https://github.com/your-username/business-management-system.git
 cd business-management-system
+
+### ⚙️ 3. Set Up `.env` File
+
+Create a `.env` file in the root of your project with the following variables:
+
+```ini
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_user
+DB_PASSWORD=your_database_password
+
+# Email Configuration (PHPMailer)
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.yourhost.com
+MAIL_PORT=587
+MAIL_USERNAME=your-email@example.com
+MAIL_PASSWORD=your-email-password
+MAIL_FROM=your-email@example.com
+MAIL_FROM_NAME=Your App Name
+
