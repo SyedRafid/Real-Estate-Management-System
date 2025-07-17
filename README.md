@@ -88,7 +88,7 @@ git clone https://github.com/SyedRafid/Real-Estate-Management-System.git
 cd Real-Estate-Management-System
 ```
 
-### 📂 Importing the Database using phpMyAdmin
+### 📂 2. Importing the Database using phpMyAdmin
 
 This project uses a MySQL database named **`building`**. To set it up locally, follow these steps:
 
@@ -110,15 +110,7 @@ This project uses a MySQL database named **`building`**. To set it up locally, f
    - Select the SQL file (e.g., `building.sql`).
    - Click **Go** at the bottom to start the import.
    - Wait for the success message confirming the import.
-
-3. **Configure Your `.env` File:**
-
-   - Set the database name and credentials accordingly in your `.env` file:
-
-   ```ini
-   DB_DATABASE=building
-   DB_USERNAME=your_mysql_username
-   DB_PASSWORD=your_mysql_password
+     
 
 ### ⚙️ 3. Set Up `.env` File
 
