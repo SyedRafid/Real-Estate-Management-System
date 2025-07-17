@@ -106,4 +106,11 @@ MAIL_USERNAME=your-email@example.com
 MAIL_PASSWORD=your-email-password
 MAIL_FROM=your-email@example.com
 MAIL_FROM_NAME=Your App Name
-
+```
+### 🗝️ User login
+- Super Admin:
+  - Email: syed.shuvon@gmail.com
+  - Password: syed.shuvon@gmail.com
+- Admin:
+  - Email: syed.shuvon2@gmail.com
+  - Password: syed.shuvon2@gmail.com
