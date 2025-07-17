@@ -139,3 +139,13 @@ MAIL_FROM_NAME=Your App Name
 - Admin:
   - Email: syed.shuvon2@gmail.com
   - Password: syed.shuvon2@gmail.com
+---
+
+## 🙏 Thank You!
+
+Thank you for checking out this project!  
+If you find it helpful, please consider giving it a ⭐️ on GitHub.
+
+Feel free to open issues or submit pull requests — contributions and feedback are always welcome!  
+
+Happy coding and best of luck managing your real estate business efficiently! 🏢✨
