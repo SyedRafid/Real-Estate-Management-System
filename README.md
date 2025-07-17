@@ -84,9 +84,42 @@ Built using HTML, CSS, bootstrap, JavaScript, PHP, and phpMyAdmin with the SB Ad
 ### 📥 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-username/business-management-system.git
-cd business-management-system
+git clone https://github.com/SyedRafid/Real-Estate-Management-System.git
+cd Real-Estate-Management-System
 ```
+
+### 📂 Importing the Database using phpMyAdmin
+
+This project uses a MySQL database named **`building`**. To set it up locally, follow these steps:
+
+1. **Create the Database:**
+
+   - Open **phpMyAdmin** in your browser (e.g., http://localhost/phpmyadmin).
+   - Click on the **Databases** tab.
+   - In the "Create database" field, enter the name:  
+     ```
+     building
+     ```
+   - Choose the collation (e.g., `utf8mb4_general_ci`) and click **Create**.
+
+2. **Import the SQL File:**
+
+   - Click on the newly created `building` database in phpMyAdmin.
+   - Go to the **Import** tab.
+   - Click **Choose File** and browse to the project folder's `database` directory.
+   - Select the SQL file (e.g., `building.sql`).
+   - Click **Go** at the bottom to start the import.
+   - Wait for the success message confirming the import.
+
+3. **Configure Your `.env` File:**
+
+   - Set the database name and credentials accordingly in your `.env` file:
+
+   ```ini
+   DB_DATABASE=building
+   DB_USERNAME=your_mysql_username
+   DB_PASSWORD=your_mysql_password
+
 ### ⚙️ 3. Set Up `.env` File
 
 Create a `.env` file in the root of your project with the following variables:
