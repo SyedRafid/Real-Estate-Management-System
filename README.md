@@ -94,7 +94,6 @@ Create a `.env` file in the root of your project with the following variables:
 ```ini
 # Database Configuration
 DB_HOST=localhost
-DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
