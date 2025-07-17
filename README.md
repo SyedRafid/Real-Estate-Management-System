@@ -63,7 +63,7 @@ Built using HTML, CSS, bootstrap, JavaScript, PHP, and phpMyAdmin with the SB Ad
 
 | Area       | Technology           |
 |------------|----------------------|
-| Frontend   | HTML, CSS, JS, SB Admin 2, Custom UI |
+| Frontend   | HTML, CSS, Bootstrap, JS, SB Admin 2, Custom UI |
 | Backend    | PHP                  |
 | Database   | MySQL (phpMyAdmin)   |
 | Email      | PHPMailer (via Composer) |
