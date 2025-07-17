@@ -86,7 +86,7 @@ Built using HTML, CSS, bootstrap, JavaScript, PHP, and phpMyAdmin with the SB Ad
 ```bash
 git clone https://github.com/your-username/business-management-system.git
 cd business-management-system
-
+```
 ### ⚙️ 3. Set Up `.env` File
 
 Create a `.env` file in the root of your project with the following variables:
